@@ -8,7 +8,7 @@ def main():
     user_input = input("Ask something: ")
 
     print("\nFetching knowledge...\n")
-    knowledge = run_tool(f"npm run test-client")
+    knowledge = run_tool("cd ../lpi-developer-kit && npm run test-client")
 
     print("\n=== FINAL ANSWER ===\n")
     print("Based on LPI tools:\n")
